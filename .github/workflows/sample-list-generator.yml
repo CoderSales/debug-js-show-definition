@@ -25,6 +25,9 @@ jobs:
       - name: Generate sample list
         run: npm run start
 
+      - name: Run ESLint
+        run: npm run lint
+
       - name: Upload to artifacts
         uses: actions/upload-artifact@v4
         with:
