@@ -29,7 +29,7 @@ jobs:
         run: npm run lint
 
       - name: Upload to artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: extension-samples.json
           path: ./.repo/sample-list-generator/extension-samples.json
